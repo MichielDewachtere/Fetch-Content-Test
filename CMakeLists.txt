@@ -14,4 +14,4 @@ add_library(RealLogger "Logger.cpp" "Foo.cpp")
 target_include_directories(RealLogger PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
 
 # Copy header files to the Debug folder
-file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/Logger.h" "${CMAKE_CURRENT_SOURCE_DIR}/Foo.h" DESTINATION "${CMAKE_BINARY_DIR}/Debug")
+# file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/Logger.h" "${CMAKE_CURRENT_SOURCE_DIR}/Foo.h" DESTINATION "${CMAKE_BINARY_DIR}/Debug")
