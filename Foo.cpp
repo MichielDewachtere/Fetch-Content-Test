@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void foo()
+void Foo::foo()
 {
     std::cout << "Hello from foo\n";
 }

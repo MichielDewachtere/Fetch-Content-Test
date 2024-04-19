@@ -1,1 +1,5 @@
-void foo();
+class Foo
+{
+public:
+    void foo();
+};
