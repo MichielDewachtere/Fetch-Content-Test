@@ -11,4 +11,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_library(RealLogger "real_core/Logger.cpp" "real_core/Foo.cpp")
 
 # Include directories for the library
-target_include_directories(RealLogger PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/real_core")
+target_include_directories(RealLogger PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
