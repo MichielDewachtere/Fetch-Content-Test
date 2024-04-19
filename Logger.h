@@ -144,7 +144,8 @@ namespace real
 	template <typename ... Args>
 	void Logger::LogInfo(const LogString& log, Args&&... args)
 	{
-		ProcessLog(LogLevel::info, log, std::make_format_args(args...));
+		if (ProcessLog(LogLevel::info, log, std::make_format_args(args...)) == false)
+			std::cout << "error\n";
 	}
 
 	template <typename ... Args>
